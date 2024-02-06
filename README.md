@@ -14,7 +14,7 @@
 <a name="summary"/>
 
 ## 1. Summary
-The provided script is designed to convert SQL statements from one language to another while preserving the structure of the code. It uses OpenAI's GPT-3 model for translation. The script is also capable of splitting a file into methods, applying the translation to each method, and then rebuilding the file.
+The provided script is designed to convert SQL statements from one language to another while preserving the structure of the code. It uses OpenAI's GPT model for translation. The script is also capable of splitting a file into methods, applying the translation to each method, and then rebuilding the file.
 
 <a name="Configuration-file"/>
 
