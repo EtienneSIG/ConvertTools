@@ -1,0 +1,4 @@
+Remplace connect_args={"ssl": {"ssl_ca": ca_path}}, par connect_args={"sslmode": "require"}
+Remplace la fonction mysql ENCRYPT() par la fonction MD5() postgres
+Remplace CURDATE() par CURRENT_DATE sans ()
+Remplace SHOW Databases par un requête SQL postgres equivalente

@@ -1,0 +1,1 @@
+python convertSQL.py -p "C:\Users\esigwald\Documents\10_Oracle2postgre\demo\python_test" -s "mysql" -d "postgres" -t "py" -pf "promptPostgres.txt"
