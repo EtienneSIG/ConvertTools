@@ -4,14 +4,14 @@ import tkinter
 from tkinter import *
 from tkinter import ttk
 
-user_mysql = "etienne"
-password_mysql = "demomysql"
-host_mysql = "esigdbtest.mysql.database.azure.com:3306"
+user_mysql = ""
+password_mysql = ""
+host_mysql = ""
 db_mysql="testdb"
-#user_postgres = "demopostgres"
-#password_postgres = "demopostgres"
-#host_postgres = "esigtestpostgres.postgres.database.azure.com:5432"
-#db_postgres="postgres"
+#user_postgres = ""
+#password_postgres = ""
+#host_postgres = ""
+#db_postgres=""
 
 window_main = tkinter.Tk(className='Hello from '+user_mysql, )
 window_main.geometry("800x200")
