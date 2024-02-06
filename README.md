@@ -1,10 +1,9 @@
 # ConvertTools
 
-# Technical and Functional Documentation
+The provided script is designed to convert SQL statements from one language to another while preserving the structure of the code. It uses OpenAI's GPT model for translation. The script is also capable of splitting a file into methods, applying the translation to each method, and then rebuilding the file.
 
 ## Table of Contents
-0. [Requirements](#req)
-1. [Summary](#summary)
+1. [Requirements](#req)
 2. [Configuration file](#Configuration-file)
 3. [Launch the application ](#app_launch)
 4. [Libraries Used](#lib)
@@ -14,19 +13,13 @@
 
 <a name="req"/>
 
-## 0. Requirement
+## 1. Requirement
 
 ### Azure requirement
  - Have an Azure Open AI service with GPT4 in your tenant ( https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal )
 
 ### Python requirement
 Version >= 3.1X (https://www.python.org/downloads/)
-
-
-<a name="summary"/>
-
-## 1. Summary
-The provided script is designed to convert SQL statements from one language to another while preserving the structure of the code. It uses OpenAI's GPT model for translation. The script is also capable of splitting a file into methods, applying the translation to each method, and then rebuilding the file.
 
 <a name="Configuration-file"/>
 
