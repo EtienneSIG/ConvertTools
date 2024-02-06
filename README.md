@@ -5,6 +5,14 @@
 ## Summary
 The provided script is designed to convert SQL statements from one language to another while preserving the structure of the code. It uses OpenAI's GPT-3 model for translation. The script is also capable of splitting a file into methods, applying the translation to each method, and then rebuilding the file.
 
+<a name="app_launch"/>
+
+## 6. Launch the application 
+The script can be run from the command line with the following syntax:
+```
+python convertSQL.py -p <folder where is the code to be transformed> -s <langage_source> -d <langage_destination> -t <extension of the code to be transformed> -pf <additional_prompt_file>
+```
+
 ## Libraries Used
 - argparse: used for command-line argument parsing
 - os, sys, subprocess, ntpath, re, time, shutil: standard Python libraries for system-level operations, file path manipulation, regular expressions, time calculations, and high-level file operations respectively
