@@ -3,6 +3,7 @@
 # Technical and Functional Documentation
 
 ## Table of Contents
+0. [Requirements](#req)
 1. [Summary](#summary)
 2. [Configuration file](#Configuration-file)
 3. [Launch the application ](#app_launch)
@@ -10,6 +11,17 @@
 5. [functions](#functions)
 6. [Launch the application](#app_launch)
 7. [Important Points](#important)
+
+<a name="req"/>
+## 0. Requirement
+
+### Azure requirement
+ - Have an Azure Open AI service with GPT4 in your tenant ( https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal )
+
+### Python requirement
+#### version
+Version >= 3.1X (https://www.python.org/downloads/)
+
 
 <a name="summary"/>
 
