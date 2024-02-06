@@ -20,7 +20,6 @@
  - Have an Azure Open AI service with GPT4 in your tenant ( https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal )
 
 ### Python requirement
-#### version
 Version >= 3.1X (https://www.python.org/downloads/)
 
 
